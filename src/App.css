@@ -1,0 +1,175 @@
+.App {
+  margin: 0;
+  text-align: center;
+}
+
+body{
+  background-color: maroon;
+  background-image: url("./images/pablo-merchan.jpg");
+  background-position:center;
+  background-size: contain;
+}
+
+.Header{
+  background-color: rgba(217, 177, 33, 0.4);
+  height: auto;
+  color: white;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.showButton{
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(50%);
+}
+
+.showButton button{
+  background-color: rgba(117, 70, 13, 0.855);
+  font-size: 22px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  text-shadow: 0 2px 4px rgb(255, 36, 3), 0 0 5px rgb(234, 240, 233);
+  cursor: pointer;
+  border-color: rgba(200, 165, 123, 0.855);
+  border-style:solid;
+}
+
+.showButton button:hover{
+  background-color: rgba(117, 70, 13, 0.7);
+}
+
+.showButtonTop, .showButtonBottom{
+  margin: 0;
+  position: relative;
+  top: 30%;
+  -ms-transform: translateY(-20%);
+  transform: translateY(0%);
+  background-color: rgba(255, 140, 0, 0.879);
+  padding: 15px 50px;
+  margin-left: 44%;
+  margin-right: 44%;
+  border-radius: 2px;
+  border-color: black;
+  border-style:ridge;
+}
+
+.showButtonTop{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.showButtonBottom{
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.allLayers{
+  margin-bottom: 100px;
+}
+
+.allLayers h2{
+  color: white;
+  margin-bottom: 5%;
+  background-color: maroon;
+  padding: 10px 10px;
+  margin: 45px 45px;
+}
+
+.bunStyleTop, .bunStyleBottom, .tomato, .meat, .lettuce{
+  margin: 0;
+  position: relative;
+  top: 30%;
+  -ms-transform: translateY(-20%);
+  transform: translateY(0%);
+  padding: 40px 105px;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 5px;
+}
+
+.bunStyleTop,.bunStyleBottom{
+  background-color: #f28e0a;
+  border-color: black;
+  border-style:ridge;
+}
+
+.bunStyleTop{
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+.bunStyleBottom{
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.tomato, .meat, .lettuce{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  color: white;
+  height: 5px;
+  padding: 30px 19%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.tomato{
+  background-color: rgb(251, 78, 48);
+}
+
+.meat{
+  background-color: rgb(120, 70, 4);
+}
+
+.lettuce{
+  background-color: rgb(5, 198, 5);
+}
+
+.tomato:hover, .meat:hover, .lettuce:hover{
+  background-color: red;
+  height: 5px;
+  padding: 30px 15%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 20px;
+}
+
+.tomato:hover::before, .meat:hover::before, .lettuce:hover::before{
+  content: "REMOVE ";
+  color: white;
+  font-weight: bolder;
+}
+
+.tomato:hover::after, .meat:hover::after, .lettuce:hover::after{
+  content: " ?";
+  color: white;
+  font-weight: bolder;
+}
+
+.refreshButton{
+  background-color: rgba(247, 255, 6, 0.7);
+  margin-top: 5%;
+  padding: 5px 20px;
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-shadow: 2px 2px 2px #f28e0a;
+}
+
+.refreshButton:hover{
+  background-color: rgba(247, 255, 6, 0.5);
+}
