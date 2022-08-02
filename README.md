@@ -1,3 +1,6 @@
+# See the Live App
+Click [here](https://aca-burger-ellaine.herokuapp.com/) to deploy in heroku
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
